@@ -1,12 +1,12 @@
 // import './App.css';
+import React from "react";
+import AuthPage from "./pages/AuthPage/AuthPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Hello World
-      </header>
-    </div>
+    <React.Fragment>
+      <AuthPage />
+    </React.Fragment>
   );
 }
 
