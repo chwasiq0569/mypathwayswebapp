@@ -4,6 +4,9 @@
   font-weight: 500;
   font-size: 16px;
 }
+.importantInfo {
+  color: #0071bc;
+}
 .formContainer {
   padding: 30px 0px;
 }
@@ -20,7 +23,7 @@ label {
   width: auto;
   padding: 18px 25px;
   margin-top: 8px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   background-color: #f7f9fc;
   padding: 18px 25px;
   display: flex;
@@ -73,10 +76,15 @@ label {
 .submitAndSignUp .leftSide {
   display: flex;
   align-items: flex-start !important;
+  overflow-y: auto;
 }
 .submitAndSignUp .rightSide {
   margin-left: 30px;
 }
+.submitAndSignUp .rightSide .signUpText {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
 .submitAndSignUp .leftSide .submitBtnForm {
   width: 192px;
   height: 44px;
@@ -86,6 +94,8 @@ label {
   color: white;
   margin: 0 auto;
   transition: all 0.2s ease;
+  font-weight: 600;
+  font-size: 18px;
 }
 .submitAndSignUp .leftSide .submitBtnForm:hover {
   box-shadow: 0px 8px 20px rgba(0, 82, 137, 0.3);

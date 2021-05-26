@@ -2,17 +2,25 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  font-family: "Calibri";
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  overflow: hidden;
+}
+.clickable {
+  cursor: pointer;
 }
 .authPageContainer .leftSide,
 .authPageContainer .rightSide {
   width: 50%;
   height: 100%;
 }
+.authPageContainer .rightSide {
+  position: relative;
+}
 .authPageContainer .leftSide {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-y: auto;
 }
 .logoContainer .logo {
   width: 82px;
@@ -22,17 +30,18 @@
 }
 .primaryHeading {
   color: #0e243a;
-  font-family: "Calibri";
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   font-weight: 700;
   font-size: 28px;
   line-height: 38px;
+  margin-bottom: 5px;
 }
-.secondarytext {
-  color: #505050;
+.secondaryText {
+  color: #505050 !important;
   line-height: 18px;
 }
 .contentContainer {
-  width: 376px;
+  width: 420px;
   padding-top: 2rem;
 }
 
@@ -43,7 +52,25 @@
   height: 100%;
   object-fit: cover;
 }
-
+.rightSide .navbarContainer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.rightSide .navbarContainer ul {
+  margin-top: 25px;
+  margin-right: 60px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.rightSide .navbarContainer ul li {
+  list-style-type: none;
+  color: white;
+  font-weight: 500;
+}
 .authPageContainer .leftSide .bottomVector {
   position: absolute;
   width: 238px;
@@ -58,7 +85,7 @@
   object-fit: cover;
 }
 .signInContainer {
-  font-family: "Calibri";
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 @media screen and (max-width: 820px) {
   .authPageContainer {
@@ -70,6 +97,13 @@
   }
   .authPageContainer .rightSide {
     display: none;
+  }
+  .rightSide .navbarContainer {
+    display: none;
+  }
+  .contentContainer {
+    width: 376px;
+    padding-top: 2rem;
   }
 }
 
