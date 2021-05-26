@@ -26,7 +26,6 @@ const AuthPage = () => {
               <p className="primaryHeading">Welcome To Pathway!</p>
             </p>
           )}
-
           {signInPage ? (
             <p className="secondaryText">
               Welcome back to <strong>Pathway</strong>, Good to see you again :)
@@ -38,7 +37,6 @@ const AuthPage = () => {
             </p>
           )}
           <div className="signInContainer">
-            {/* <SignIn /> */}
             {signInPage ? (
               <SignIn setSignInPage={setSignInPage} />
             ) : (
