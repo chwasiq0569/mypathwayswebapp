@@ -1,0 +1,12 @@
+.lowerSection .stepThreeGridContainer {
+  width: 776px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+.lowerSection .stepThreeGridContainer .col {
+  width: 170px;
+}
+.lowerSection .stepThreeGridContainer .col .checkboxes__Wrapper {
+  width: 100%;
+}

@@ -1,0 +1,56 @@
+.lowerSection .finishMessageBox {
+  max-width: 712px;
+  height: 378px;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(40, 59, 91, 0.1);
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.lowerSection .finishMessageBox img {
+  width: 107px;
+  height: 107px;
+}
+.lowerSection .finishMessageBox p {
+  margin: 14px 0px;
+  width: 60%;
+  text-align: center;
+}
+.lowerSection .finishMessageBox h3 {
+  margin: 0;
+  margin-top: 14px;
+}
+.lowerSection .finishMessageBox .letStartBtn {
+  width: 264px;
+  height: 44px;
+  border: none;
+  background: #0071bc;
+  box-shadow: 0px 8px 20px rgba(0, 82, 137, 0.2);
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  outline: none;
+  margin-top: 18px;
+}
+@media screen and (max-width: 600px) {
+  .lowerSection .finishMessageBox {
+    width: 95%;
+    height: 396px;
+    background: #ffffff;
+    box-shadow: 0px 15px 30px rgba(40, 59, 91, 0.1);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .lowerSection .finishMessageBox p {
+    margin: 14px 0px;
+    width: 85%;
+    text-align: center;
+  }
+}

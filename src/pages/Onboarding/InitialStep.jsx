@@ -1,11 +1,10 @@
 import React from "react";
 import OnboardingNavbar from "../../components/OnboardingNavbar/OnboardingNavbar";
 import "./initialStep.css";
-import CheckBoxImg from "../../assets/images/checkbox.png";
+// import CheckBoxImg from "../../assets/images/checkbox.png";
 
 const InitialStep = () => {
   const list = ["Active Recovery", "Recovery Ally"];
-  const [selected, setSelected] = React.useState("");
 
   const createList = (list) => {
     return list.map((l) => {
